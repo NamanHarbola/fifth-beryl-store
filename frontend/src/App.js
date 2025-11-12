@@ -15,7 +15,7 @@ import CheckoutPage from './pages/CheckoutPage';
 import OrdersPage from './pages/OrdersPage';
 import LoginPage from './pages/LoginPage';
 import ProfilePage from './pages/ProfilePage';
-import WishlistPage from './pages/WishlistPage'; // <-- THIS IS THE CRITICAL IMPORT
+import WishlistPage from './pages/WishlistPage'; // <-- THIS WAS THE MISSING IMPORT
 
 // Admin Imports
 import AdminDashboard from './pages/admin/AdminDashboard';
