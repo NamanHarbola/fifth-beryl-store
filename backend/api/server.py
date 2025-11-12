@@ -22,7 +22,7 @@ import cloudinary.api
 from pymongo import ASCENDING, DESCENDING
 import math
 
-ROOT_DIR = Path(__file__).parent
+ROOT_DIR = Path(__file__).parent.parent
 load_dotenv(ROOT_DIR / '.env')
 
 # MongoDB connection
