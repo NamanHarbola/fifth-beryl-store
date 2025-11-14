@@ -7,7 +7,7 @@
       "config": {
         "installCommand": "yarn install",
         "buildCommand": "yarn build",
-        "outputDirectory": "frontend/build"  
+        "outputDirectory": "frontend/build"
       }
     },
     {
@@ -21,20 +21,8 @@
       "dest": "/backend/api/server.py"
     },
     {
-      "src": "/static/(.*)",
-      "dest": "/static/$1" 
-    },
-    {
-      "src": "/favicon.ico",
-      "dest": "/favicon.ico"
-    },
-    {
-      "src": "/manifest.json",
-      "dest": "/manifest.json"
-    },
-    {
       "src": "/(.*)",
-      "dest": "/index.html" 
+      "dest": "frontend/build/index.html"
     }
   ]
 }
